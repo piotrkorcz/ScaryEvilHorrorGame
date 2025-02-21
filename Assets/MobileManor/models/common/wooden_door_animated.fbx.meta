@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: 2f73bf18ea051fa499e60b3084b42598
+labels:
+- Prop
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: group
+    100002: polySurface192
+    100004: polySurface193
+    100006: polySurface194
+    100008: polySurface195
+    100010: polySurface196
+    100012: polySurface197
+    100014: polySurface198
+    100016: polySurface199
+    100018: polySurface200
+    100020: polySurface201
+    100022: polySurface202
+    100024: polySurface203
+    100026: transform1
+    100028: transform10
+    100030: transform2
+    100032: transform3
+    100034: transform4
+    100036: transform5
+    100038: transform6
+    100040: transform7
+    100042: transform8
+    100044: transform9
+    100046: //RootNode
+    100048: polySurface204
+    400000: group
+    400002: polySurface192
+    400004: polySurface193
+    400006: polySurface194
+    400008: polySurface195
+    400010: polySurface196
+    400012: polySurface197
+    400014: polySurface198
+    400016: polySurface199
+    400018: polySurface200
+    400020: polySurface201
+    400022: polySurface202
+    400024: polySurface203
+    400026: transform1
+    400028: transform10
+    400030: transform2
+    400032: transform3
+    400034: transform4
+    400036: transform5
+    400038: transform6
+    400040: transform7
+    400042: transform8
+    400044: transform9
+    400046: //RootNode
+    400048: polySurface204
+    2300000: polySurface202
+    2300002: polySurface203
+    2300004: polySurface204
+    3300000: polySurface202
+    3300002: polySurface203
+    3300004: polySurface204
+    4300000: polySurface202
+    4300002: polySurface203
+    4300004: polySurface204
+    7400000: open_door
+    7400002: close_door
+    7400004: open_door //// polySurface203
+    7400006: close_door //// polySurface203
+    7400008: open_door //// polySurface204
+    7400010: close_door //// polySurface204
+    7400012: add_handle
+    7400014: ajoutpoignee //// polySurface203
+    7400016: ajoutpoignee //// polySurface204
+    9500000: //RootNode
+    11100000: group
+    11100002: polySurface192
+    11100004: polySurface193
+    11100006: polySurface194
+    11100008: polySurface195
+    11100010: polySurface196
+    11100012: polySurface197
+    11100014: polySurface198
+    11100016: polySurface199
+    11100018: polySurface200
+    11100020: polySurface201
+    11100022: polySurface202
+    11100024: polySurface203
+    11100026: transform1
+    11100028: transform10
+    11100030: transform2
+    11100032: transform3
+    11100034: transform4
+    11100036: transform5
+    11100038: transform6
+    11100040: transform7
+    11100042: transform8
+    11100044: transform9
+    11100046: //RootNode
+    11100048: polySurface204
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: open_door
+      takeName: Take 001
+      firstFrame: 57
+      lastFrame: 96
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: close_door
+      takeName: Take 001
+      firstFrame: 97
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: add_handle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 56
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.013
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: polySurface203
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
