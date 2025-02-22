@@ -2,12 +2,12 @@
 
 using System.Collections;
 
-using UnityEngine.Advertisements;
 
 
 
 
-public class AdsUnity : MonoBehaviour, IUnityAdsInitializationListener
+
+public class AdsUnity : MonoBehaviour
 {
 
     string gameID = "3807597";
@@ -18,7 +18,7 @@ public class AdsUnity : MonoBehaviour, IUnityAdsInitializationListener
     void Start()
     {
 
-        Advertisement.Initialize(gameID, testMode, this);
+       // Advertisement.Initialize(gameID, testMode, this);
         //StartCoroutine(ShowBannerWhenInitialized());
 
     }
@@ -27,24 +27,28 @@ public class AdsUnity : MonoBehaviour, IUnityAdsInitializationListener
     {
         Debug.Log("Unity Ads initialization complete.");
         //load ads
-        Advertisement.Banner.SetPosition(BannerPosition.TOP_CENTER);
+       // Advertisement.Banner.SetPosition(BannerPosition.TOP_CENTER);
         // Set up options to notify the SDK of load events:
-        BannerLoadOptions options = new BannerLoadOptions
-        {
-            loadCallback = OnBannerLoaded,
-            errorCallback = OnBannerError
-        };
+        //BannerLoadOptions options = new BannerLoadOptions
+        //{
+        //    loadCallback = OnBannerLoaded,
+        //    errorCallback = OnBannerError
+        //};
 
         // Load the Ad Unit with banner content:
-        Advertisement.Banner.Load("bannerPlacement", options);
-        Advertisement.Load("interstitialPlacement");
-        Advertisement.Load("rewardedVideo");
+       // Advertisement.Banner.Load("bannerPlacement", options);
+       // Advertisement.Load("interstitialPlacement");
+       // Advertisement.Load("rewardedVideo");
+
+        
+        
+
     }
 
-    public void OnInitializationFailed(UnityAdsInitializationError error, string message)
-    {
-        Debug.Log($"Unity Ads Initialization Failed: {error.ToString()} - {message}");
-    }
+    //public void OnInitializationFailed(UnityAdsInitializationError error, string message)
+    //{
+    //    Debug.Log($"Unity Ads Initialization Failed: {error.ToString()} - {message}");
+    //}
 
     //BANNER
 
@@ -52,15 +56,15 @@ public class AdsUnity : MonoBehaviour, IUnityAdsInitializationListener
     {
         Debug.Log("Banner loaded");
         // Set up options to notify the SDK of show events:
-        BannerOptions options = new BannerOptions
-        {
-            clickCallback = OnBannerClicked,
-            hideCallback = OnBannerHidden,
-            showCallback = OnBannerShown
-        };
+        //BannerOptions options = new BannerOptions
+        //{
+        //    clickCallback = OnBannerClicked,
+        //    hideCallback = OnBannerHidden,
+        //    showCallback = OnBannerShown
+        //};
 
-        // Show the loaded Banner Ad Unit:
-        Advertisement.Banner.Show("bannerPlacement", options);
+        //// Show the loaded Banner Ad Unit:
+        //Advertisement.Banner.Show("bannerPlacement", options);
     }
 
     void OnBannerError(string message)
@@ -87,13 +91,7 @@ public class AdsUnity : MonoBehaviour, IUnityAdsInitializationListener
     public void ShowRewardedAd()
     {
 
-        Advertisement.Show("rewardedVideo");
-        //if (Advertisement.IsReady("rewardedVideo"))
-        //{
-
-        //    var options = new ShowOptions { resultCallback = HandleShowResult };
-        //    Advertisement.Show("rewardedVideo", options);
-        //}
+       GoogleAdsManager.instance.ShowRewardedAd();
     }
 
 
@@ -122,16 +120,7 @@ public class AdsUnity : MonoBehaviour, IUnityAdsInitializationListener
     public void ShowInterstitialAd()
     {
 
-        Advertisement.Show("interstitialPlacement");
-        // Check if UnityAds ready before calling Show method:
-        //if (Advertisement.IsReady("interstitialPlacement"))
-        //{
-        //    Advertisement.Show("interstitialPlacement");
-        //}
-        //else
-        //{
-        //    Debug.Log("Interstitial ad not ready at the moment! Please try again later!");
-        //}
+       GoogleAdsManager.instance.ShowInterstitialAd();
     }
 
     //banner
